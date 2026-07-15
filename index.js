@@ -3,14 +3,14 @@
 // Tag name: h1
 // Text: Welcome to React
 
-const element = _______________________________;
+const element = React.createElement("h1,null,"welcome to my webpag");
 
 // TODO 2:
 // Create the React root
 
-const root = _______________________________;
+const root = ReactDom.createRoot (document.get Element By id ("root");
 
 // TODO 3:
 // Render the element
 
-_______________________________;
+root.render(element);
